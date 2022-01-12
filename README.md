@@ -1,2 +1,2 @@
 # Password-Generator
-Generates a secure password between 8-32 characters
+This program generates a secure password between 8-32 characters.
