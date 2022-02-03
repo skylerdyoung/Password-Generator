@@ -133,6 +133,7 @@ def copyPassword(gui_object, textbox):
 
 gui= Tk(None, None, "password generator") # tkinter Tk() object
 gui.geometry('265x72') # sets default window size
+gui.resizable(False, False)
 
 textBox = Text(gui, height = 1, width = 32) # Text object where the password goes
 generateButton = Button(gui, text = 'Generate', bd = '1', width = 16, command = lambda: insertPassword(textBox)) 
